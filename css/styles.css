@@ -87,7 +87,7 @@
     scale: 100%;
   }
 }
-.scroll {
+.producto {
   view-timeline-name: --image;
   view-timeline-axis: block;
   animation-timeline: --image;
@@ -97,9 +97,10 @@
 
   display: flex;
   justify-content: center;
+  width: 18rem;
 }
 
-.bestseller {
+.productos {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -110,7 +111,7 @@
 }
 
 @media screen and (max-width: 650px) {
-  .scroll {
+  .producto {
     display: flex;
     justify-content: center;
     width: 100%;
