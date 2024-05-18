@@ -105,6 +105,9 @@
   justify-content: center;
   width: 100%;
 }
+.card{
+  height: fit-content !important;
+}
 
 @media screen and (max-width: 650px) {
   .scroll {
